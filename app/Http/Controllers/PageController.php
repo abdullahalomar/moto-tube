@@ -10,4 +10,19 @@ class PageController extends Controller
     {
         return view('pages.index');
     }
+
+    public function submission()
+    {
+        return view('Pages.modals.submission');
+    }
+
+    public function service()
+    {
+        return view('Pages.modals.service');
+    }
+
+    public function sendVideo()
+    {
+        return view('Pages.send_video');
+    }
 }

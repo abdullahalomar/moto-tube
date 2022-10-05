@@ -7,7 +7,7 @@
     <div class="container">
         <div class="landing-content">
             <h1 class="wow fadeInLeft" data-wow-delay="0.1s">Moto<span>Tube</span> Submission</h1>
-            <a href="send-video.html" class="page-btn page-btn-primary wow fadeInRight" data-wow-delay="0.1s"><span>Send your video</span></a>
+            <a href="{{url('send-video')}}" class="page-btn page-btn-primary wow fadeInRight" data-wow-delay="0.1s"><span>Send your video</span></a>
             <ul class="social-share wow fadeInUp" data-wow-delay="0.1s">
                 <li>
                     <a href="#" target="_blank">
@@ -33,8 +33,8 @@
                 </li>
             </ul>
             <ul class="legal-lists wow fadeInUp" data-wow-delay="0.1s">
-                <li><a href="Javascript:void(0);" data-bs-toggle="modal" data-bs-target="#staticSubmission" class="legal_btn">Terms of Submission</a></li>
-                <li><a href="Javascript:void(0);" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="legal_btn">Terms of Service</a></li>
+                <li><a href="{{url('submission', 'Javascript:void(0)')}}" data-bs-toggle="modal" data-bs-target="#staticSubmission" class="legal_btn">Terms of Submission</a></li>
+                <li><a href="{{url('service')}}" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="legal_btn">Terms of Service</a></li>
             </ul>
         </div>
     </div>
