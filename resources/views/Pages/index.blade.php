@@ -32,8 +32,9 @@
                     </a>
                 </li>
             </ul>
+            
             <ul class="legal-lists wow fadeInUp" data-wow-delay="0.1s">
-                <li><a href="{{url('submission', 'Javascript:void(0)')}}" data-bs-toggle="modal" data-bs-target="#staticSubmission" class="legal_btn">Terms of Submission</a></li>
+                <li><a href="{{url('submission','Javascript:void(0)')}}" data-bs-toggle="modal" data-bs-target="#staticSubmission" class="legal_btn">Terms of Submission</a></li>
                 <li><a href="{{url('service')}}" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="legal_btn">Terms of Service</a></li>
             </ul>
         </div>

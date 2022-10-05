@@ -1,6 +1,7 @@
 @extends('layout.app')
+
     <div class="form-right-graphics wow fadeInUp" data-wow-delay="0.4s">
-        <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 154 880" width="154" height="880">
+        <svg version="1.2" xmlns="{{asset('assets/http://www.w3.org/2000/svg')}}" viewBox="0 0 154 880" width="154" height="880">
             <title>Group 26-svg</title>
             <style>
                 .s0 { fill: #c20000 } 
@@ -16,7 +17,7 @@
         <div class="container">
             <div class="header-flex">
                 <a href="index.html" class="header-logo">
-                    <img src="images/logo.png" alt="">
+                    <img src="{{asset('assets/images/logo.png')}}" alt="">
                 </a>
             </div>
         </div>

@@ -1,4 +1,4 @@
-
+@extends('layout.app')
     <div class="landing-screen landing-screen-thankyou">
         <div class="container">
             <div class="landing-content">

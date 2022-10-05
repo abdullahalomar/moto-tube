@@ -25,4 +25,9 @@ class PageController extends Controller
     {
         return view('Pages.send_video');
     }
+
+    public function thankYou()
+    {
+        return view('thankYou');
+    }
 }
