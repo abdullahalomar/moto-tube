@@ -607,7 +607,7 @@
                             </div>
                             <div class="form-col-12">
                                 <div class="form-btn wow fadeInUp" data-wow-delay="0.1s">
-                                    <button type="button" class="page-btn page-btn-primary" onclick="handleVideoSubmit();"><span>Send your video</span></button>
+                                    <button type="button" class="page-btn page-btn-primary"><span>Send your video</span></button>
                                 </div>
                             </div>
                         </div>

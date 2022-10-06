@@ -25,10 +25,10 @@
                 <circle cx="781" cy="585" r="702" fill="#AC0000"/>
             </svg>                
             <div class="landing-right-logo wow fadeInRight" data-wow-delay="0.8s">
-                <img src="images/landing-right-logo.png" alt="">
+                <img src="{{asset('assets/images/landing-right-logo.png')}}" alt="">
             </div>
         </div>
         <div class="landing-left-graphics wow fadeInLeft" data-wow-delay="0.4s">
-            <img src="images/left-graphics.png" alt="">
+            <img src="{{asset('assets/images/left-graphics.png')}}" alt="">
         </div>
     </div>
